@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #21003c;
+}
+body{
+    overflow-x: hidden;
+}
+
+.footernav{
+    width: 80px;
+    height: 80px;
+}
+.roww-1{
+    display: flex;
+    align-items: center;
+    height: 600px;
+
+}
+.rotate-image{
+    width: 170px;
+    height: 450px;
+}
+.hover:hover{
+    color: red !important;
+    transition: 0.4s;
+}
+ .roww-1 .rotating-head{
+    position: absolute;
+    top: center;
+    left: 18vw;
+    color: white;
+    text-align: center;
+    font-size: 80px!;
+    font-weight: 900;
+    font-family: "EksellDisplayWeb-Small";
+    z-index: 100;
+
+}
+.text p{
+    padding: 50px;
+    padding-top: 150px; 
+    font-family: "merivaregular";
+    font-size: 24px;
+}
+.footernav img{
+    width: 25px;
+    height: 25px;
+    
+}
+.footernav a{
+    color: rgb(0,0,0);
+}
+.footernav{
+    width: 200px;
+    height: 52px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.footernav img:hover{
+    width: 30px;
+    height: 30px;
+    transition: 0.4ms;
+    transform-style: preserve-3d;
+    
+    
+}
+
+address a{
+    text-decoration: none;
+
+}
+address span{
+    color: black;
+    font-weight: 550;
+
+}
+address span:hover{
+    color: tomato;
+    transition: 0.3s;
+    text-decoration: underline;
+
+}
+.footer{
+
+    margin: 40px;
+}
+/*.....MEDIA QUERY...... */
+@media(max-width:1200px){
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:992px){
+    .rotate-image{
+        width: 90px;
+        height: 200px;
+    }
+    .roww-1 .rotating-head{
+        left: 36vw;
+    }
+}
+@media (max-width:576px){
+    .rotate-image{
+        width: 50px;
+        height: 150px;
+    }
+}
